@@ -1,7 +1,6 @@
 import React from "react";
 import { StyleSheet, TextInput, View } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import { black } from "color-name";
 
 const SearchBar = ({ searchTerm, onTermChange, onTermSubmit }) => {
   return (
